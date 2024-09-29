@@ -5,3 +5,15 @@
   background-color: var(--color-accent-3);
   box-shadow: inset -3px 3px 7px 1px #fff6, inset 6px -3px 4px 0px #8e0833;
 }
+
+#semi-gloss .illustration {
+  background: url('../assets/sparkles1.svg') 90% 20% / 48px 48px no-repeat
+    var(--color-accent-3);
+}
+
+#high-gloss .illustration {
+  background: url('../assets/sparkles1.svg') 90% 20% / 48px 48px no-repeat,
+    url('../assets/sparkles2.svg') 62% 14% / 6px 6px no-repeat,
+    url('../assets/sparkles2.svg') 75% 80% / 6px 6px no-repeat
+      var(--color-accent-3);
+}
