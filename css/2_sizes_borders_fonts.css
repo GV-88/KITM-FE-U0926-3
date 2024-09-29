@@ -127,3 +127,23 @@ footer {
   letter-spacing: 0.125em;
   padding: 18px;
 }
+
+/* reduce padding on small screens */
+@media screen and (max-width: 511px) {
+  .gallery {
+    padding: 2.5rem;
+    padding-top: 2rem;
+  }
+  .gallery .content {
+    padding: 1rem;
+  }
+  .gallery .titlebox {
+    overflow-wrap: anywhere;
+  }
+  .gallery h1 {
+    font-size: 56px;
+    letter-spacing: 0.125em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
