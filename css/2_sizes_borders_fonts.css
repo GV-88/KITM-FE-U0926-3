@@ -20,6 +20,7 @@ header nav a {
   font-size: 19px;
   line-height: 1.2;
   letter-spacing: 0.125em;
+  padding: 0.75em 0.5em;
 }
 
 header nav .logo {
@@ -32,7 +33,7 @@ header {
 }
 
 header nav {
-  gap: 1.5em;
+  gap: 0.5em;
 }
 
 .gallery {
