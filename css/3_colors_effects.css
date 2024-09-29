@@ -1,0 +1,44 @@
+/* variables */
+:root {
+  --color-background: #000;
+  --color-background-alt: #222;
+  --color-foreground: #fff;
+  --color-accent-1: #fd7d54;
+  --color-accent-2: #41c3f6;
+  --color-accent-3: #c90a47;
+}
+
+/* default */
+body {
+  /* text color is inherited in all descendant elements */
+  color: var(--color-foreground);
+  background-color: var(--color-background-alt);
+}
+
+header,
+footer,
+.gallery {
+  background-color: var(--color-background);
+}
+
+header nav a {
+  color: var(--color-foreground);
+}
+
+main {
+  background-image: url('/assets/background.jfif');
+  background-size: cover;
+  background-position: 50% 18%;
+}
+
+h1 {
+  color: var(--color-accent-1);
+}
+
+article a {
+  color: var(--color-accent-2);
+}
+
+article {
+  border-color: var(--color-foreground);
+}

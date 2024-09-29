@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+/* default base (D.R.Y.) */
+body > .container,
+main,
+.gallery,
+.gallery .content,
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+body > .container {
+  min-height: 100vh;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+header nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header nav .logo {
+  order: 1;
+}
+/* ideally logo should be in the middle, whether nav has 4 or 6 links */
+header nav a:nth-child(n + 3) {
+  order: 2;
+}
+
+header,
+footer {
+  flex: 0 0;
+}
+
+main {
+  flex: 1 1;
+  justify-content: center;
+}
+
+.gallery .titlebox {
+  text-align: center;
+}
+
+.gallery .content {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.gallery article {
+  flex: 1 1;
+}
+
+.gallery article p {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}

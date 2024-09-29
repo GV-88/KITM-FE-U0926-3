@@ -1,0 +1,7 @@
+.gallery article .illustration {
+  width: 128px;
+  height: 128px;
+  border-radius: 64px;
+  background-color: var(--color-accent-3);
+  box-shadow: inset -3px 3px 7px 1px #fff6, inset 6px -3px 4px 0px #8e0833;
+}
